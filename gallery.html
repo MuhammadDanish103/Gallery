@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery - Easy Tutorials</title>
+    <link rel="stylesheet" href="gallery.css">
+</head>
+<body>
+    <div class="full-img" id="fullImgBox">
+        <img src="images/img1.jpg" id="fullImg"> 
+        <span onclick="closefullImg()">X</span>
+    </div>
+    
+    <div class="img-gallery">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT00rejWha1fvpXc8Njcbd4oSt27V8EDKosCA&s" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQNipG1eTYBNGS34XHNQRFfBt1a8Q6VeJUtEA&s" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSurKNp8HTZ2PKzAjTeECVKpFWvHW1j9TitTA&s" onclick="openfullImg(this.src)">
+        <img src="https://i.tribune.com.pk/media/images/aamir-khan-handsomeness1668507219-0/aamir-khan-handsomeness1668507219-0.jpg" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQzQjfSUnrWobWOdzfNqEBcx3Snh4sdkrEOKTqVdvzmBqEUJsCkXveq8ZXxqTIkoypUxyw&usqp=CAU" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR5a1cz0f8VSGYxRUezjSB7FGoP3r9idEAP5w&s" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTu7TmBbsL4q_6k4o4yfqLwbYNCEpxJ579K3w&s" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnk8bjLiKcbSCPldjRRQAhYnYDhOHOlx1HOA&s" onclick="openfullImg(this.src)">
+        <img src="https://i.pinimg.com/236x/e5/3a/b0/e53ab0bcb1ee408bac57997cda6dcf56.jpg" onclick="openfullImg(this.src)">
+        <img src="https://img.freepik.com/premium-photo/male-model-wearing-professional-corporate-shirt-with-jeans-with-rest-shirt-made-cotton-stylish-professional_191555-6929.jpg" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQeKq7eD4ndGDc_B1mpVlFP5UjQeAgjU5FQxw&s" onclick="openfullImg(this.src)">
+        <img src="https://cdn.pixabay.com/photo/2024/01/15/11/36/batman-8510024_640.png" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-kXM-HwTmbVTDkSMB_jywynYsl23XvcQvoQ&s" onclick="openfullImg(this.src)">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR31tSXUfhgY4dyuodcWf6RRhW87gtsFcA6u-lWIx3Az2V4IAmBxqe1Jfdh8CIPZM3u1Zg&usqp=CAU" onclick="openfullImg(this.src)">
+        <img src="https://bgr.com/wp-content/uploads/2024/03/Spider-Man-No-Way-Home.jpg?quality=82&strip=all&w=1020&h=574&crop=1" onclick="openfullImg(this.src)">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/7/7d/Sheikh_Zayed_Mosque_view.jpg/800px-Sheikh_Zayed_Mosque_view.jpg" onclick="openfullImg(this.src)">
+        <img src="https://mmo.aiircdn.com/265/66123ed0bbbb1.jpeg" onclick="openfullImg(this.src)">
+        <img src="https://t3.ftcdn.net/jpg/05/88/80/64/360_F_588806440_OViSP03Q74vnnR2ISEKzM2pWh0BHMbeT.jpg" onclick="openfullImg(this.src)">
+        <img src="https://assets.aboutamazon.com/dims4/default/d613427/2147483647/strip/true/crop/1888x1063+1+0/resize/1240x698!/quality/90/?url=https%3A%2F%2Famazon-blogs-brightspot.s3.amazonaws.com%2Fef%2F86%2F468151184ba49c2c7bae4d39b9d5%2Fcover-amzn1-dv-re-b880989c-b838-4dfa-8e78-657b06e83cd2-global-en-us.jpg" onclick="openfullImg(this.src)">
+        <img src="https://cdn.zeebiz.com/sites/default/files/styles/zeebiz_850x478/public/2020/10/26/131925-screenshot-2020-10-26-at-134155.png?itok=778b-nPV" onclick="openfullImg(this.src)">
+        <img src="H:\Dani\inshot\InShot_20190907_160000819.jpg" onclick="openfullImg(this.src)">
+    </div>
+
+    <script>
+        var fullImgBox = document.getElementById("fullImgBox");
+        var fullImg = document.getElementById("fullImg");
+
+        function openfullImg(pic) {
+            fullImgBox.style.display = "flex";
+            fullImg.src = pic;
+        }
+
+        function closefullImg() {
+            fullImgBox.style.display = "none";
+        }
+    </script>
+</body>
+</html>
