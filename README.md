@@ -1,3 +1,3 @@
 # Gallery
-This is Basic gallery which i build for my (Code Alpha) task1 Internship frontend development
-in This we Use Html and Css Code
+"This is a basic gallery I built for my Task 1 internship at Code Alpha in frontend development,
+where I used HTML and CSS
